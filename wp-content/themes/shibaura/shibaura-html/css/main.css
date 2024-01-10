@@ -300,6 +300,9 @@ p {
     margin: 0 7px; }
   #banner .owl-banner .owl-dots .owl-dot.active span {
     background-color: var(--c-blue); }
+  @media (max-width: 767.98px) {
+    #banner .owl-banner .owl-dots {
+      margin-top: 22px; } }
 
 #news {
   padding-top: 30px;
@@ -355,7 +358,8 @@ p {
               margin-right: 20px;
               color: var(--c-white); }
         #news .box .new-link {
-          text-align: right; } }
+          text-align: right;
+          padding-top: 15px; } }
 
 #sharing {
   margin-bottom: 60px; }

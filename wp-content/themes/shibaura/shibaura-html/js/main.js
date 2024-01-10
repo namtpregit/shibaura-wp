@@ -26,19 +26,16 @@ $(document).ready(function() {
 
 
     // Header scroll class
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 80) {
-            $('#header').addClass('header-scrolled');
-            $("#header .ion-android-menu").css({ "position": "fixed", "top": "inherit", "right": "16px" });
-        } else {
-            $('#header').removeClass('header-scrolled');
-            $("#header .ion-android-menu").css({ "position": "inherit", "top": "48px", "right": "inherit" });
-        }
-    });
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() > 60) {
+    //         $('#header').addClass('header-scrolled');
+    //         $("#header .ion-android-menu").css({ "position": "fixed", "top": "inherit", "right": "16px" });
+    //     }
+    // });
 
-    if ($(window).scrollTop() > 80) {
-        $('#header').addClass('header-scrolled');
-    }
+    // if ($(window).scrollTop() > 60) {
+    //     $('#header').addClass('header-scrolled');
+    // }
 
     $('.owl-carousel_liquidity').owlCarousel({
         loop: true,

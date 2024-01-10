@@ -51,7 +51,7 @@
     </div>
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="header-scrolled">
         <div class="container-c-header">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
@@ -74,3 +74,4 @@
             </nav>
         </div>
     </header>
+    <div style="margin-top: 105px;"></div>

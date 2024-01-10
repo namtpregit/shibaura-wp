@@ -34,7 +34,7 @@ get_header();
                         endif;
                         ?>
 
-                        <span class="txt">2023年7月　<?php the_title(); ?></span>
+                        <span class="txt"><?php the_title(); ?></span>
                     </a>
                 <?php endforeach; ?>
             </div>
