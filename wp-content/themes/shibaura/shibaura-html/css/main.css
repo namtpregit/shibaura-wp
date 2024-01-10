@@ -237,7 +237,7 @@ p {
         #footer .box .right .nav li.menu-item:nth-child(4) {
           width: 44%; }
       #footer .box .right .info {
-        padding-right: 0; } }
+        padding-right: 12px; } }
 
 #banner .owl-banner .owl-item.active .item .item-child {
   transform: scale(1);
@@ -323,6 +323,8 @@ p {
         color: var(--c-white);
         border-radius: 4px;
         padding: 2px 20px; }
+      #news .box .left .item .txt br {
+        display: none; }
     @media (max-width: 767.98px) {
       #news .box .left .item .cate {
         margin-left: 9px;
@@ -608,6 +610,10 @@ p {
 #title-page {
   padding-top: 50px;
   padding-bottom: 85px; }
+  #title-page.sing-news {
+    padding-bottom: 69px; }
+    #title-page.sing-news .txt br {
+      display: none; }
   #title-page .txt {
     font-size: 30px;
     font-weight: 700;
@@ -627,7 +633,11 @@ p {
   @media (max-width: 767.98px) {
     #title-page {
       padding-top: 30px;
-      padding-bottom: 28px; } }
+      padding-bottom: 28px; }
+      #title-page.sing-news {
+        padding-bottom: 40px; }
+        #title-page.sing-news .txt br {
+          display: block; } }
 
 #about .about-first .box {
   display: grid;
@@ -730,6 +740,13 @@ p {
     font-size: 17px;
     font-weight: 700;
     line-height: 24px; }
+  @media (max-width: 767.98px) {
+    #service .service-1 {
+      margin-bottom: 83px; }
+      #service .service-1 .txt {
+        margin-bottom: 28px; }
+      #service .service-1 .list {
+        margin-bottom: 28px; } }
 #service .service-2 .service-2-title {
   font-size: 24px;
   font-weight: 700;
@@ -1033,12 +1050,13 @@ p {
 #emulator_c {
   font-family: 'Noto Sans JP', sans-serif; }
   #emulator_c .emulator-c-title .elementor-heading-title {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Noto Sans JP', sans-serif !important; }
   #emulator_c .emulator-c-title span.note {
     font-size: 16px;
     font-weight: 400;
-    color: var(--main); }
+    color: var(--c-main);
+    padding-left: 27px; }
   #emulator_c p {
     font-family: 'Noto Sans JP', sans-serif; }
   #emulator_c .emulator-img-c .elementor-widget-container img {
@@ -1059,6 +1077,8 @@ p {
       padding-bottom: 20px; }
       #emulator_c .emulator-c-title .elementor-heading-title {
         font-size: 24px; }
+      #emulator_c .emulator-c-title span.note {
+        padding-left: 10px; }
       #emulator_c .table {
         border-top: 2px solid var(--c-blue-2); }
         #emulator_c .table tr td {
@@ -1094,6 +1114,8 @@ p {
         color: var(--c-white);
         border-radius: 4px;
         padding: 2px 20px; }
+      #page-news .list .item .txt br {
+        display: none; }
     @media (max-width: 767.98px) {
       #page-news .list .item .cate {
         margin-left: 9px;

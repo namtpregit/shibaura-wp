@@ -44,7 +44,7 @@ get_header();
                 <div class="left">
                 <?php
                     $posts = get_posts(array(
-                        'post_type'         => 'news-v2',
+                        'post_type'         => 'news',
                         'numberposts'	=> 1,
                         'orderby'	=> 'date',
 	                    'order'		=> 'DESC'

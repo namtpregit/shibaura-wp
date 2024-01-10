@@ -1,6 +1,16 @@
 #title-page {
     padding-top: 50px;
     padding-bottom: 85px;
+
+    &.sing-news {
+        padding-bottom: 69px;
+        .txt {
+            br {
+                display: none;
+            }
+        }
+    }
+
     .txt {
         font-size: 30px;
         font-weight: 700;
@@ -26,6 +36,14 @@
     @media (max-width: 767.98px) {
         padding-top: 30px;
         padding-bottom: 28px;
+        &.sing-news {
+            padding-bottom: 40px;
+            .txt {
+                br {
+                    display: block;
+                }
+            }
+        }
     }
 }
 

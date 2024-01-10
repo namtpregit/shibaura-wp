@@ -186,14 +186,15 @@
     font-family: 'Noto Sans JP', sans-serif;
     .emulator-c-title {
         .elementor-heading-title {
-            font-size: 17px;
+            font-size: 15px;
             font-family: 'Noto Sans JP', sans-serif !important;
         }
         span {
             &.note {
                 font-size: 16px;
                 font-weight: 400;
-                color: var(--main);
+                color: var(--c-main);
+                padding-left: 27px;
             }
         }
 
@@ -229,6 +230,11 @@
         .emulator-c-title {
             .elementor-heading-title {
                 font-size: 24px;
+            }
+            span {
+                &.note {
+                    padding-left: 10px;
+                }
             }
         }
         .table {

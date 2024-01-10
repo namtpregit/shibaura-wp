@@ -12,7 +12,7 @@ get_header();
 ?>
 
 <!-- Banner -->
-<section id="title-page">
+<section id="title-page" class="sing-news">
     <div class="container-c">
         <h1 class="txt"><?php the_title(); ?></h1>
         <p class="desc">

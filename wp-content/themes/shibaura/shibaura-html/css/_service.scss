@@ -19,6 +19,15 @@
             font-weight: 700;
             line-height: 24px;
         }
+        @media (max-width: 767.98px) {
+            margin-bottom: 83px;
+            .txt {
+                margin-bottom: 28px;
+            }
+            .list {
+                margin-bottom: 28px;
+            }
+        }
     }
 
     .service-2 {

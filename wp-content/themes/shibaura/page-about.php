@@ -38,13 +38,16 @@ get_header();
                                             ?>
                                                 <tr>
                                                     <td><?php the_sub_field('title'); ?></td>
-                                                    <td><?php the_sub_field('content'); ?>
-                                                    <?php if ($i == 2) : ?>
-                                                    <a href="<?php the_field('map_url'); ?>" target="_blank">
-                                                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/map-icon.png" alt="" class="img-icon">
-                                                    </a>
-                                                    <?php endif; ?>
-                                                </td>
+                                                    <td>
+                                                        <div>
+                                                            <?php the_sub_field('content'); ?>
+                                                            <?php if ($i == 2) : ?>
+                                                            <a href="<?php the_field('map_url'); ?>" target="_blank">
+                                                                <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/map-icon.png" alt="" class="img-icon">
+                                                            </a>
+                                                            <?php endif; ?>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                             <?php
                                         endwhile;
