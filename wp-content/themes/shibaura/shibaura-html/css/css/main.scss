@@ -1,0 +1,113 @@
+:root {
+    --c-red: #c40000;
+    --c-main: #333;
+    --c-green-2: #2d4961;
+    --c-green-3: #122f4b;
+    --c-green-4: #44aba5;
+    --c-text: #000;
+    --c-gray: #f5f5f5;
+    --c-gray-2: #dadad9;
+    --c-gray-3: #C4C4C4;
+    --c-white: #fff;
+    --c-blue: #004ea2;
+    --c-blue-2: #17529C;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/times-new-roman");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 16px;
+    color: var(--c-main);
+    background-color: var(--c-white);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    background-color: var(--c-white);
+    margin: 0 auto;
+}
+
+.container-c {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media (max-width: 1000.98px) {
+        padding: 0 22px;
+    }
+}
+
+.title-base {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.white-space {
+    white-space: pre-line;
+}
+
+.ele-container-c {
+    padding: 0;
+
+    .ele-title {
+        .elementor-heading-title {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
+.td-none {
+    color: var(--c-main);
+    text-decoration: none;
+}
+
+.c_link {
+    text-align: right;
+    color: var(--c-main);
+    text-decoration: none;
+}
+
+@import "./header.scss";
+@import "./footer.scss";
+@import "./top_page.scss";
+@import "./about.scss";
+@import "./service.scss";
+@import "./activity.scss";
+@import "./news.scss";
+@import "./test.scss";
+
