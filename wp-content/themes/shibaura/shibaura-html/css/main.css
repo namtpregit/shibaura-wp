@@ -568,9 +568,9 @@ p {
           height: 162px; }
         #sharing .sharing-img .right .text {
           padding-top: 6px; } }
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 390px) {
     #sharing .sharing-title {
-      font-size: 28px; } }
+      font-size: 26px; } }
 
 #activity .box {
   display: grid;
