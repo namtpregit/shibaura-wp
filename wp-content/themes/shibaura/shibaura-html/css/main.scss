@@ -48,6 +48,10 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+[data-aos=fade-up] {
+    transform: translate3d(0,50px,0);
+}
+
 .fix-pt {
     margin-top: 105px;
     @media (max-width: 768.98px) {

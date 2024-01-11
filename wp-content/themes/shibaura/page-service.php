@@ -4,20 +4,20 @@ get_header();
 <!-- Banner -->
 <section id="title-page">
     <div class="container-c">
-        <h1 class="txt" data-aos="fade-up" data-aos-duration="1500">事業内容</h1>
+        <h1 class="txt" data-aos="fade-up" data-aos-duration="600">事業内容</h1>
     </div>
 </section>
 
 <!-- Service -->
 <section id="service">
     <div class="container-c">
-        <div class="service-1" data-aos="fade-up" data-aos-duration="1500">
+        <div class="service-1" data-aos="fade-up" data-aos-duration="600">
             <h4 class="txt"><?php the_field('title_1'); ?></h4>
             <?php the_field('title_2'); ?>
             <div class="desc"><?php the_field('title_3'); ?></div>
         </div>
 
-        <div class="service-2" data-aos="fade-up" data-aos-duration="1500">
+        <div class="service-2" data-aos="fade-up" data-aos-duration="600">
             <div class="service-2-title"><?php the_field('title'); ?></div>
             <table class="table">
                 <tbody>
@@ -38,7 +38,7 @@ get_header();
             </table>
         </div>
 
-        <div class="service-3" data-aos="fade-up" data-aos-duration="1500">
+        <div class="service-3" data-aos="fade-up" data-aos-duration="600">
             <div class="box-top">
                 <div class="left">
                     <div class="child">
@@ -82,7 +82,7 @@ get_header();
         </div>
     </div>
 
-    <div class="service-5" data-aos="fade-up" data-aos-duration="1500">
+    <div class="service-5" data-aos="fade-up" data-aos-duration="600">
         <div class="container-c">
             <div class="box">
                 <h4 class="title"><?php the_field('title_last'); ?><span>(ピアノ・エレクトーン)</span></h4>
@@ -96,7 +96,7 @@ get_header();
 <section id="social-network">
         <div class="container-c">
             <div class="box">
-                <a class="child" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="1500">
+                <a class="child" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="600">
                     <div class="media">
                         <div class="media-body">
                             <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_yt.png" alt="" class="media-img">
@@ -108,7 +108,7 @@ get_header();
                         </div>
                     </div>
                 </a>
-                <a class="child" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="1500">
+                <a class="child" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="600">
                     <div class="media">
                         <div class="media-body">
                             <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">

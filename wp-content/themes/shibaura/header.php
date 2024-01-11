@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/shibaura-html/libs/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/shibaura-html/css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/shibaura-html/libs/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/shibaura-html/libs/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/shibaura-html/css/main.css">
