@@ -74,6 +74,4 @@ $(document).ready(function() {
     $(".language span").on("click", function() {
         $(".language-list").slideToggle();
     })
-
-    
 });

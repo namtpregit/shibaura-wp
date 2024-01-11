@@ -48,6 +48,13 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.fix-pt {
+    margin-top: 105px;
+    @media (max-width: 768.98px) {
+        margin-top: 61px;
+    }
+}
+
 .wrapper {
     max-width: 1200px;
     background-color: var(--c-white);
