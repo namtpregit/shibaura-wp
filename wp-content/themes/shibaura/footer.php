@@ -53,6 +53,8 @@
             items: 1,
             // animateOut: 'slideOutDown',
             animateIn: 'flipInX',
+            autoplay:true,
+            autoplayTimeout:3000,
         })
     })
 </script>

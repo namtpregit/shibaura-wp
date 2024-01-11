@@ -26,15 +26,20 @@ $(document).ready(function() {
 
 
     // Header scroll class
-    // $(window).scroll(function() {
-    //     if ($(this).scrollTop() > 60) {
-    //         $('#header').addClass('header-scrolled');
-    //         $("#header .ion-android-menu").css({ "position": "fixed", "top": "inherit", "right": "16px" });
-    //     }
-    // });
+    $(window).scroll(function() {
+        // if ($(this).scrollTop() > 60) {
+        //     $('#header').addClass('header-scrolled');
+        //     $("#header .ion-android-menu").css({ "position": "fixed", "top": "inherit", "right": "16px" });
+        // }
+        if ($(this).scrollTop() > 60) {
+            $('#header .navbar').addClass('box-shadow-c');
+        } else {
+            $('#header .navbar').removeClass('box-shadow-c');
+        }
+    });
 
     // if ($(window).scrollTop() > 60) {
-    //     $('#header').addClass('header-scrolled');
+    //     $('#header .navbar').addClass('box-shadow-c');
     // }
 
     $('.owl-carousel_liquidity').owlCarousel({

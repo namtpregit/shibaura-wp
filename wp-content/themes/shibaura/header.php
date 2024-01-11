@@ -50,32 +50,34 @@
         </div>
     </div>
 
+    <!-- Header -->
+    <header id="header" class="header-scrolled">
+        <div class="container-c-header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo-mobile">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#menu-mobile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="19" viewBox="0 0 39 19" fill="none">
+                            <path d="M0 1H38.5M0 9.5H38.5M0 18.5H38.5" stroke="black" />
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <?php
+                            wp_nav_menu( array( 'theme_location'=>'my-custom-menu', 'container' => 'ul','menu_class'=>'navbar-nav' ) );
+                        ?>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="fix-pt"></div>
+
     <!-- wrapper -->
     <div class="wrapper">
 
-        <!-- Header -->
-        <header id="header" class="header-scrolled">
-            <div class="container-c-header">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo">
-                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo-mobile">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#menu-mobile">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="19" viewBox="0 0 39 19" fill="none">
-                                <path d="M0 1H38.5M0 9.5H38.5M0 18.5H38.5" stroke="black" />
-                            </svg>
-                        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <?php 
-                                wp_nav_menu( array( 'theme_location'=>'my-custom-menu', 'container' => 'ul','menu_class'=>'navbar-nav' ) );
-                            ?>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
 
-        <div class="fix-pt"></div>
