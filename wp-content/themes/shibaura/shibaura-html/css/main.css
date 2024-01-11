@@ -959,6 +959,8 @@ p {
           line-height: 26px; }
           #service .service-3 .box-top .right .child .content .content-group .desc:first-child {
             font-weight: 700; }
+          #service .service-3 .box-top .right .child .content .content-group .desc:nth-child(2) {
+            width: 342px; }
   #service .service-3 .box-bottom {
     display: grid;
     grid-template-columns: 323px 323px 1fr;
@@ -999,6 +1001,9 @@ p {
         gap: 40px; }
         #service .service-3 .box-bottom .txt {
           font-size: 18px; } }
+  @media (max-width: 400.98px) {
+    #service .service-3 .box-top .right .child .content .content-group .desc:nth-child(2) {
+      width: 100%; } }
 #service .service-4 .title {
   font-size: 24px;
   font-weight: 700;
