@@ -1,23 +1,11 @@
 $(document).ready(function() {
 
-
     if (window.location.hash) {
         var offset = -120;
         $('html, body').animate({
             scrollTop: ($(window.location.hash).offset().top + offset) + 'px'
         }, 1000, 'swing');
     }
-
-
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 60) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-
-
 
     $('.back-to-top').click(function() {
         $('html, body').animate({ scrollTop: 0 }, 800, 'easeInOutExpo');
@@ -33,8 +21,10 @@ $(document).ready(function() {
         // }
         if ($(this).scrollTop() > 60) {
             $('#header .navbar').addClass('box-shadow-c');
+            $('#header-fix').addClass('box-shadow-c');
         } else {
             $('#header .navbar').removeClass('box-shadow-c');
+            $('#header-fix').removeClass('box-shadow-c');
         }
     });
 
@@ -42,41 +32,15 @@ $(document).ready(function() {
     //     $('#header .navbar').addClass('box-shadow-c');
     // }
 
-    $('.owl-carousel_liquidity').owlCarousel({
-        loop: true,
-        margin: 110,
-        stagePadding: 100,
-        nav: true,
-        navText: ["<img src='./imgs/icon-prev.png'>","<img src='./imgs/icon-prev.png'>"],
-        dots: false,
-        // autoplay:true,
-        // autoplayTimeout:3000,
-        // autoplayHoverPause:true,
-        responsive: {
-            0: {
-                items: 1,
-                stagePadding: 20,
-                margin: 20,
-            },
-            400: {
-                items: 1,
-                margin: 70,
-                stagePadding: 70,
-            },
-            600: {
-                items: 2,
-                margin: 70,
-                stagePadding: 70,
-            },
-            1000: {
-                items: 3
-            }
-        }
+    $('#toggle').click(function() {
+        $(this).toggleClass('open');
+        $('#overlay').toggleClass('open');
+        $('#header-fix').toggleClass('open');
     });
-    $("#profile-down").on("click", function() {
-        $(".caret-down").slideToggle();
-    })
-    $(".language span").on("click", function() {
-        $(".language-list").slideToggle();
+
+    $('#overlay li a, #overlay .link-c').on('click', function () {
+        $('#overlay').toggleClass('open');
+        $('#header-fix').toggleClass('open');
+        $('#toggle').toggleClass('open');
     })
 });

@@ -34,20 +34,23 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-	<div class="offcanvas offcanvas-start" id="menu-mobile">
-        <div class="offcanvas-header">
-            <button type="button" data-bs-dismiss="offcanvas">
-                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="43" viewBox="0 0 37 43" fill="none">
-                    <path d="M1 11L36.5 32" stroke="white" />
-                    <path d="M36.7183 11.3781L0.781726 31.622" stroke="white" />
-                </svg>
-            </button>
+    <div class="header-fix" id="header-fix">
+        <a href="<?php echo esc_url(home_url('/')); ?>">
+            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo-mobile">
+        </a>
+        <div id="toggle" class="toggle-custom">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <div class="offcanvas-body">
-			<?php 
+    </div>
+
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+            <?php
 				wp_nav_menu( array( 'theme_location'=>'my-custom-menu', 'container' => 'ul','menu_class'=>'navbar-nav' ) );
 			?>
-        </div>
+      </nav>
     </div>
 
     <!-- Header -->
@@ -57,7 +60,6 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo">
-                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/logo.png" alt="Avatar Logo" class="logo-mobile">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#menu-mobile">
