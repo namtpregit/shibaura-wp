@@ -58,7 +58,7 @@ get_header();
                     <?php foreach ($posts as $post) :
                         setup_postdata($post);
                     ?>
-                        <div class="item">
+                        <a class="item" href="<?php the_permalink(); ?>">
                             <span class="date"><?php echo get_the_date('Y/m/d'); ?></span>
 
                             <?php
@@ -72,7 +72,7 @@ get_header();
                             ?>
 
                             <span class="txt"><?php the_title(); ?></span>
-                        </div>
+                        </a>
                     <?php endforeach; ?>
                     <?php wp_reset_postdata(); ?>
                 <?php endif; ?>
