@@ -23,14 +23,21 @@ get_header();
     </h3>
     <div class="slideshow">
         <?php
-            if (have_rows('slider_show')) :
-                while (have_rows('slider_show')) : the_row();
-            ?>
-                <div class="slideshow-image" style="background-image: url('<?php the_sub_field('image'); ?>')"></div>
-            <?php
-                endwhile;
-            else :
-            endif;
+        if (have_rows('slider_show')) :
+            while (have_rows('slider_show')) : the_row();
+        ?>
+                <div class="slideshow-image" style="background-image: url('<?php
+                                                                            $useragent = $_SERVER["HTTP_USER_AGENT"];
+                                                                            if (stripos($useragent, "mobile") !== false) {
+                                                                                the_sub_field('image_mobile');
+                                                                            } else {
+                                                                                the_sub_field('image');
+                                                                            }
+                                                                            ?>')"></div>
+        <?php
+            endwhile;
+        else :
+        endif;
         ?>
     </div>
 </div>
