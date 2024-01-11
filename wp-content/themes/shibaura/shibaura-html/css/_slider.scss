@@ -24,6 +24,7 @@ $scale-base-1: (1 + $scale / 100%);
         z-index: 99;
 
         span {
+            white-space: pre-line;
             &.mobile {
                 display: none;
             }

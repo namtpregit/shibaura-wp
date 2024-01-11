@@ -1410,8 +1410,10 @@ Version: 2.0.0
     text-align: center;
     margin-bottom: 0;
     z-index: 99; }
-    #slider .text span.mobile {
-      display: none; }
+    #slider .text span {
+      white-space: pre-line; }
+      #slider .text span.mobile {
+        display: none; }
   @media (max-width: 767.98px) {
     #slider .text {
       font-size: 31px;
