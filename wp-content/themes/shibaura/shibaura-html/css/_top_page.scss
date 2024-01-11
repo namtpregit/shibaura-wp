@@ -1,16 +1,40 @@
 #banner {
+    position: relative;
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--c-white);
+        font-size: 34px;
+        line-height: 43px;
+        font-weight: 400;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 0;
+        z-index: 99;
+
+        @media (max-width: 767.98px) {
+            .text {
+                font-size: 31px;
+                line-height: 46px;
+                width: 279px;
+                text-align: left;
+                left: 38px;
+                bottom: 42px;
+                top: unset;
+                transform: unset;
+            }
+        }
+    }
+
     .owl-banner {
         .owl-item {
+            overflow: hidden;
             &.active {
                 .item {
                     .item-child {
                     transform: scale(1);
-                    opacity: 1;
-                        .text {
-                            opacity: 1;
-                            transition: opacity 2s;
-                            transition-delay: 1s;
-                        }
                     }
 
                 }
@@ -21,34 +45,17 @@
                     position: relative;
                     height: 470px;
                     width: 100%;
-                    // background-image: url(./../imgs/banner-1.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
                     transform: scale(1.2);
-                    opacity: 0;
-                    transition: all 4s cubic-bezier(0.23, 1, 0.32, 1);
+                    transition: all 16s cubic-bezier(0.23, 1, 0.32, 1);
 
                     &.item-mobile {
                         display: none;
                         .text {
                             white-space: pre-line;
                         }
-                    }
-
-                    .text {
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        color: var(--c-white);
-                        font-size: 34px;
-                        line-height: 43px;
-                        font-weight: 400;
-                        width: 80%;
-                        text-align: center;
-                        margin-bottom: 0;
-                        opacity: 0;
                     }
                 }
 
@@ -65,17 +72,6 @@
 
                         &:not(.item-mobile) {
                             display: none;
-                        }
-
-                        .text {
-                            font-size: 31px;
-                            line-height: 46px;
-                            width: 279px;
-                            text-align: left;
-                            left: 38px;
-                            bottom: 42px;
-                            top: unset;
-                            transform: unset;
                         }
                     }
                 }

@@ -12,7 +12,7 @@
 
 ?>
     <!-- Footer -->
-    <footer id="footer"  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+    <footer id="footer"  data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
         <div class="container-c">
             <div class="box">
                 <div class="left">
@@ -45,18 +45,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/shibaura-html/js/main.js"></script>
 <script>
     AOS.init();
-
-    $(document).ready(function() {
-        $('.owl-banner').owlCarousel({
-            loop: true,
-            margin: 10,
-            items: 1,
-            // animateOut: 'slideOutDown',
-            animateIn: 'flipInX',
-            autoplay:true,
-            autoplayTimeout:3000,
-        })
-    })
 </script>
 </div><!-- #page -->
 
