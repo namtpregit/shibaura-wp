@@ -18,8 +18,8 @@ get_header();
 <!-- Slider -->
 <div id="slider">
     <h3 class="text">
-        <span class="pc">みんなが主役　音楽との出会い　人々との出会いの場</span>
-        <span class="mobile">みんなが主役　音楽との出会い　人々との出会いの場</span>
+        <span class="pc"><?php the_field('slider_title'); ?></span>
+        <span class="mobile"><?php the_field('slider_title_mobile'); ?></span>
     </h3>
     <div class="slideshow">
         <?php
