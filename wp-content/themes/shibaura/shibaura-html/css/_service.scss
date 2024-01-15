@@ -80,14 +80,14 @@
         padding-bottom: 128px;
         .box-top {
             display: grid;
-            grid-template-columns: 323px 1fr;
+            grid-template-columns: 360px 1fr;
             gap: 46px;
             align-items: flex-end;
             margin-bottom: 50px;
 
             .img {
                 width: 100%;
-                height: 178px;
+                height: 200px;
                 border-radius: 10px;
                 object-fit: cover;
             }
@@ -103,7 +103,7 @@
             .right {
                 .child {
                     display: grid;
-                    grid-template-columns: 323px 1fr;
+                    grid-template-columns: 360px 1fr;
                     gap: 20px;
                     .content {
                         .content-group {
@@ -130,13 +130,13 @@
 
         .box-bottom {
             display: grid;
-            grid-template-columns: 323px 323px 1fr;
+            grid-template-columns: 360px 360px 1fr;
             gap: 46px;
             align-items: flex-end;
 
             .img {
                 width: 100%;
-                height: 178px;
+                height: 200px;
                 border-radius: 10px;
                 object-fit: cover;
             }
