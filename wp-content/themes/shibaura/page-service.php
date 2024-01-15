@@ -85,7 +85,7 @@ get_header();
     <div class="service-5" data-aos="fade-up" data-aos-duration="600">
         <div class="container-c">
             <div class="box">
-                <h4 class="title"><?php the_field('title_last'); ?><span>(ピアノ・エレクトーン)</span></h4>
+                <h4 class="title"><?php the_field('title_last'); ?><span>(エレクトーン・ピアノ)</span></h4>
                 <div class="desc"><?php the_field('content'); ?></div>
             </div>
         </div>
