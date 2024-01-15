@@ -1004,57 +1004,59 @@ p {
   @media (max-width: 400.98px) {
     #service .service-3 .box-top .right .child .content .content-group .desc:nth-child(2) {
       width: 100%; } }
-#service .service-4 .title {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 35px;
-  margin-bottom: 98px; }
-#service .service-4 .img {
-  width: 100%; }
-#service .service-4 .box-img {
-  background-color: #F5F5F5;
-  position: relative; }
-  #service .service-4 .box-img .img-1 {
-    width: 345px;
-    padding-top: 104px;
-    padding-bottom: 153px; }
-  #service .service-4 .box-img .img-2 {
-    position: absolute;
-    top: -60px;
-    right: 243px;
-    width: 427px;
-    height: 258px;
-    object-fit: cover; }
-  #service .service-4 .box-img .img-3 {
-    position: absolute;
-    top: 198px;
-    right: 0;
-    width: 553px;
-    height: 257px;
-    object-fit: cover; }
-@media (max-width: 1000.98px) {
+#service .service-4 {
+  overflow: hidden; }
   #service .service-4 .title {
-    margin-bottom: 14px; }
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 98px; }
+  #service .service-4 .img {
+    width: 100%; }
   #service .service-4 .box-img {
-    padding-top: 26px;
-    padding-bottom: 35px;
-    overflow: hidden; }
+    background-color: #F5F5F5;
+    position: relative; }
     #service .service-4 .box-img .img-1 {
-      width: 216px;
-      padding: 0 0 16px; }
+      width: 345px;
+      padding-top: 104px;
+      padding-bottom: 153px; }
     #service .service-4 .box-img .img-2 {
-      position: unset;
-      width: 225px;
-      height: 136px;
-      display: block;
-      margin-left: auto;
-      margin-right: 128px; }
+      position: absolute;
+      top: -60px;
+      right: 243px;
+      width: 427px;
+      height: 258px;
+      object-fit: cover; }
     #service .service-4 .box-img .img-3 {
-      position: unset;
-      width: 292px;
-      height: 135px;
-      margin-left: auto;
-      display: block; } }
+      position: absolute;
+      top: 198px;
+      right: 0;
+      width: 553px;
+      height: 257px;
+      object-fit: cover; }
+  @media (max-width: 1000.98px) {
+    #service .service-4 .title {
+      margin-bottom: 14px; }
+    #service .service-4 .box-img {
+      padding-top: 26px;
+      padding-bottom: 35px;
+      overflow: hidden; }
+      #service .service-4 .box-img .img-1 {
+        width: 216px;
+        padding: 0 0 16px; }
+      #service .service-4 .box-img .img-2 {
+        position: unset;
+        width: 225px;
+        height: 136px;
+        display: block;
+        margin-left: auto;
+        margin-right: 128px; }
+      #service .service-4 .box-img .img-3 {
+        position: unset;
+        width: 292px;
+        height: 135px;
+        margin-left: auto;
+        display: block; } }
 #service .service-5 {
   padding: 100px 0 60px; }
   #service .service-5 .box {
