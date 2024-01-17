@@ -172,6 +172,16 @@ get_header();
                     </div>
                 </div>
             </a>
+            <a class="child" href="https://shibaura-group.co.jp/" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/img-13.png" alt="" class="media-img-2">
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 </section>
