@@ -148,7 +148,7 @@ get_header();
 <section id="social-network">
     <div class="container-c">
         <div class="box">
-            <a class="child" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="600">
+            <a class="child" target="_blank" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="600">
                 <div class="media">
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_yt.png" alt="" class="media-img">
@@ -160,7 +160,7 @@ get_header();
                     </div>
                 </div>
             </a>
-            <a class="child" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="600">
+            <a class="child" target="_blank" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="600">
                 <div class="media">
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
@@ -172,7 +172,7 @@ get_header();
                     </div>
                 </div>
             </a>
-            <a class="child" href="https://shibaura-group.co.jp/" data-aos="fade-up" data-aos-duration="600">
+            <a class="child" target="_blank" href="https://shibaura-group.co.jp/" data-aos="fade-up" data-aos-duration="600">
                 <div class="media">
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/img-13.png" alt="" class="media-img-2">
