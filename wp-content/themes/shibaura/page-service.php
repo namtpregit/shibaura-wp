@@ -94,45 +94,74 @@ get_header();
 
 <!-- Social network -->
 <section id="social-network">
-        <div class="container-c">
-            <div class="box">
-                <a class="child" target="_blank" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="600">
-                    <div class="media">
-                        <div class="media-body">
-                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_yt.png" alt="" class="media-img">
-                            <p class="media-content">財団所属 川越亮の
-                                YouTubeを見る</p>
-                            <span class="media-link">
-                                <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
-                            </span>
-                        </div>
+    <div class="container-c">
+        <div class="box">
+            <a class="child" target="_blank" href="https://shibaura-group.co.jp/" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/img-13.png" alt="" class="media-img-2">
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
                     </div>
-                </a>
-                <a class="child" target="_blank" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="600">
-                    <div class="media">
-                        <div class="media-body">
-                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
-                            <p class="media-content">財団所属 川越亮の
-                                Instagramを見る</p>
-                            <span class="media-link">
-                                <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
-                            </span>
-                        </div>
+                </div>
+            </a>
+            <a class="child" target="_blank" href="https://m.facebook.com/shibauragroup.tokyo/" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_fb.png" alt="" class="media-img">
+                        <p class="media-content">芝浦グループ
+                            facebook</p>
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
                     </div>
-                </a>
-                <a class="child" target="_blank" href="https://shibaura-group.co.jp/" data-aos="fade-up" data-aos-duration="600">
-                    <div class="media">
-                        <div class="media-body">
-                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/img-13.png" alt="" class="media-img-2">
-                            <span class="media-link">
-                                <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
-                            </span>
-                        </div>
+                </div>
+            </a>
+            <a class="child" target="_blank" href="https://www.instagram.com/shibaura_group/" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
+                        <p class="media-content">芝浦グループ
+                            Instagramを見る</p>
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
-<?php
+<section id="social-network-v2">
+    <div class="container-c">
+        <div class="box">
+            <a class="child" target="_blank" href="https://www.youtube.com/@blindnessRYO" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_yt.png" alt="" class="media-img">
+                        <p class="media-content">財団所属 川越亮の
+                            YouTubeを見る</p>
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
+                    </div>
+                </div>
+            </a>
+            <a class="child" target="_blank" href="https://www.instagram.com/ryokawagoe0503/" data-aos="fade-up" data-aos-duration="600">
+                <div class="media">
+                    <div class="media-body">
+                        <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
+                        <p class="media-content">財団所属 川越亮の
+                            Instagramを見る</p>
+                        <span class="media-link">
+                            <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 get_footer();
