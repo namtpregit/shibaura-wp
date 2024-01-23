@@ -949,7 +949,8 @@ p {
     white-space: pre-line; }
   #service .service-1 .list {
     line-height: 26px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding-left: 22px; }
   #service .service-1 .desc {
     margin-top: 52px;
     padding-bottom: 15px;
