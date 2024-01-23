@@ -948,11 +948,10 @@ p {
     margin-bottom: 32px;
     white-space: pre-line; }
   #service .service-1 .list {
-    line-height: 26px;
-    margin-bottom: 52px;
-    list-style: none;
-    padding-left: 0; }
+    line-height: 26px; }
   #service .service-1 .desc {
+    margin-top: 52px;
+    padding-bottom: 15px;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px; }
