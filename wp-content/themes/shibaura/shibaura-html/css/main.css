@@ -950,7 +950,8 @@ p {
   #service .service-1 .list {
     line-height: 26px;
     margin-bottom: 0;
-    padding-left: 22px; }
+    padding-left: 0;
+    list-style: none; }
   #service .service-1 .desc {
     margin-top: 52px;
     padding-bottom: 15px;
