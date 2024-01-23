@@ -175,7 +175,7 @@ get_header();
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
                         <p class="media-content">芝浦グループ
-                            Instagramを見る</p>
+                            Instagram</p>
                         <span class="media-link">
                             <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
                         </span>
@@ -194,7 +194,7 @@ get_header();
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_yt.png" alt="" class="media-img">
                         <p class="media-content">財団所属 川越亮の
-                            YouTubeを見る</p>
+                            YouTube</p>
                         <span class="media-link">
                             <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
                         </span>
@@ -206,7 +206,7 @@ get_header();
                     <div class="media-body">
                         <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/icon_insta.png" alt="" class="media-img">
                         <p class="media-content">財団所属 川越亮の
-                            Instagramを見る</p>
+                            Instagram</p>
                         <span class="media-link">
                             <img src="<?php bloginfo('template_directory'); ?>/shibaura-html/imgs/arrow-right.png" alt="" class="arrow-img">
                         </span>
