@@ -15,6 +15,7 @@ get_header();
             <h4 class="txt"><?php the_field('title_1'); ?></h4>
             <?php the_field('title_2'); ?>
             <div class="desc"><?php the_field('title_3'); ?></div>
+            <?php the_field('title_4'); ?>
         </div>
 
         <div class="service-2" data-aos="fade-up" data-aos-duration="600">
