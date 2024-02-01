@@ -10,11 +10,11 @@
   --c-text: #000;
   --c-gray: #f5f5f5;
   --c-gray-2: #dadad9;
-  --c-gray-3: #C4C4C4;
-  --c-gray-4: #E6E6E6;
+  --c-gray-3: #c4c4c4;
+  --c-gray-4: #e6e6e6;
   --c-white: #fff;
   --c-blue: #004ea2;
-  --c-blue-2: #17529C; }
+  --c-blue-2: #17529c; }
 
 html {
   box-sizing: border-box; }
@@ -40,7 +40,7 @@ body {
   font-size: 16px;
   color: var(--c-main);
   background-color: var(--c-white);
-  font-family: 'Noto Sans JP', sans-serif; }
+  font-family: "Noto Sans JP", sans-serif; }
 
 .fix-pt {
   margin-top: 105px; }
@@ -94,6 +94,23 @@ p {
   text-align: right;
   color: var(--c-main);
   text-decoration: none; }
+
+.error-404 {
+  padding: 20vh 0; }
+  .error-404 .page-header {
+    text-align: center; }
+    .error-404 .page-header .page-title {
+      font-size: 60px;
+      font-weight: bold; }
+    .error-404 .page-header .text {
+      margin-bottom: 8px;
+      font-size: 20px; }
+    .error-404 .page-header .desc a {
+      color: var(--c-main);
+      font-weight: bold; }
+    @media (max-width: 767.98px) {
+      .error-404 .page-header {
+        width: calc(100% - 40px); } }
 
 #header .container-fluid {
   padding-left: 0;
